@@ -1,13 +1,13 @@
 <template>
     <div class="flex items-center border border-slate-200 p-4 rounded-xl gap-4">
-        <img class="w-16 h-16" :src="imageUrl" :alt="title">
+        <img class="w-16 h-16" :src="'/Sneakers-Store' + imageUrl" :alt="title">
 
         <div class="flex flex-col">
             <p>{{title}}</p>
 
             <div class="flex justify-between mr-2 flex-1">
                 <b class="flex-1">{{price}} руб.</b>
-                <img @click="emit('onClickRemove')" class="opacity-30 hover:opacity-100 cursor-pointer transition" src="/close.svg" alt="">
+                <img @click="emit('onClickRemove')" class="opacity-30 hover:opacity-100 cursor-pointer transition" src="/Sneakers-Store/close.svg" alt="">
             </div>
         </div>
     </div>
