@@ -7,7 +7,7 @@
 
             <div class="flex justify-between mr-2 flex-1">
                 <b class="flex-1">{{price}} руб.</b>
-                <img @click="emit('onClickRemove')" class="opacity-30 hover:opacity-100 cursor-pointer transition" src="/Sneakers-Store/close.svg" alt="">
+                <img @click="emit('onClickRemove')" class="opacity-30 hover:opacity-100 cursor-pointer transition" src="../assets/close.svg" alt="">
             </div>
         </div>
     </div>
